@@ -1,0 +1,43 @@
+/* :root {
+    --infinte: infinite; 
+    --wholeRotate: rotate(360deg);
+
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url(access/galaxy.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.track {
+    /* animation-iteration-count: infinite; */
+    /* transform: rotate(360deg); */
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    border: 2px #4A437F dashed;
+    border-radius: 100%;
+    width: 150px;
+    height:150px;
+    -webkit-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+@keyframes spin-right {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
