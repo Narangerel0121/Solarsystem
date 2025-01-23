@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="style.css">
+
 <body>
-<div class="track"></div>
+    <img src="https://pinecone-academy-solar-system-animation.vercel.app/images/sun.png" id="sun">
+
+    <div class="orbit" style="--orbitdimension: 150px; --orbitperiod: 8.85s;">
+        <div class="planet"
+            style="--planetdimension: 15px; --planetperiod: 5.86s; --planetimage: url('./access/mercury.png'); --makecenter: 10%;"></div>
+    </div>
+
+    <div class="orbit" style="--orbitdimension: 200px; --orbitperiod: 22.5s;">
+        <div class="planet"
+            style="--planetdimension: 20px; --planetperiod: 24.35s; --planetimage: url('./access/venus.png'); --makecenter: 10%; "></div>
+    </div>
+    
+    <div class="orbit" style="--orbitdimension: 300px; --orbitperiod: 36.5s;">
+    <div class="planet" style="--planetdimension: 23px; --planetperiod: 1s; --planetimage: url('./access/earth.png'); --makecenter: 10%;">
+    </div>
+    </div>
+
+    <div class="orbit" style="--orbitdimension: 400px; --orbitperiod: 68.7s;">
+    <div class="planet"
+        style="--planetdimension: 17px; --planetperiod: 1.025s; --planetimage: url('./access/mars.png'); --makecenter: 12%;"></div>
+    </div>
+    
+    <div class="orbit" style="--orbitdimension: 550px; --orbitperiod: 118.6s;">
+    <div class="planet"
+        style="--planetdimension: 45px; --planetperiod: 0.41s; --planetimage: url('./access/jupiter.png'); --makecenter: 10%;"></div>
+    </div>
+
+    <div class="orbit" style="--orbitdimension: 650px; --orbitperiod: 294.6s;">
+    <div class="planet"
+        style="width: 80px; height: 40px; --planetperiod: 0.445s; --planetimage: url('https://pinecone-academy-solar-system-animation.vercel.app/images/saturn.png'); --makecenter: 10%; "></div>
+    </div>
+
+    <div class="orbit" style="--orbitdimension: 750px; --orbitperiod: 840s;">
+    <div class="planet"
+        style="--planetdimension: 35px; --planetperiod: 0.717s; --planetimage: url('./access/uranus.png'); --makecenter: 12%;"></div>
+    </div>
+
+    <div class="orbit" style="--orbitdimension: 850px; --orbitperiod: 1648s;">
+        <div class="planet"
+            style="--planetdimension: 33px; --planetperiod: 0.6715s; --planetimage: url('./access/neptune.png'); --makecenter: 12%;"></div>
+    </div>
 </body>
+
 </html>
